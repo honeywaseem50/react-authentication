@@ -1,0 +1,98 @@
+ /* AuthFlow: dashboard dark mode fixes */
+html.dark .authflow-dashboard {
+  background: #020617 !important;
+  color: #f1f5f9 !important;
+}
+
+html.dark .authflow-dashboard header,
+html.dark .authflow-dashboard aside,
+html.dark .authflow-dashboard nav,
+html.dark .authflow-dashboard article,
+html.dark .authflow-dashboard section:not(.bg-gradient-to-r) {
+  color: #f1f5f9;
+}
+
+html.dark .authflow-dashboard .bg-white,
+html.dark .authflow-dashboard header.bg-white\/95 {
+  background-color: #0f172a !important;
+}
+
+html.dark .authflow-dashboard .bg-slate-50 {
+  background-color: #020617 !important;
+}
+
+html.dark .authflow-dashboard .bg-slate-100,
+html.dark .authflow-dashboard .hover\:bg-slate-100:hover {
+  background-color: #1e293b !important;
+}
+
+html.dark .authflow-dashboard .text-slate-900,
+html.dark .authflow-dashboard .text-slate-800,
+html.dark .authflow-dashboard .text-slate-700,
+html.dark .authflow-dashboard .text-slate-600 {
+  color: #e2e8f0 !important;
+}
+
+html.dark .authflow-dashboard .text-slate-500,
+html.dark .authflow-dashboard .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+html.dark .authflow-dashboard [class*="border-slate-"] {
+  border-color: #334155 !important;
+}
+
+html.dark .authflow-dashboard input:not([type="checkbox"]),
+html.dark .authflow-dashboard select,
+html.dark .authflow-dashboard textarea {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+  border-color: #334155 !important;
+}
+
+html.dark .authflow-dashboard input::placeholder,
+html.dark .authflow-dashboard textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+html.dark .authflow-dashboard .bg-blue-50 {
+  background-color: #172554 !important;
+}
+
+html.dark .authflow-dashboard .text-blue-800 {
+  color: #bfdbfe !important;
+}
+
+
+/* RIGHT SIDE: Browser scrollbar */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #7040B8 transparent;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #7040B8 transparent;
+}
+
+/* Chrome, Edge and other WebKit browsers */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: #7040B8;
+  border-radius: 999px;
+}
+
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover {
+  background: #A78BFA;
+}
